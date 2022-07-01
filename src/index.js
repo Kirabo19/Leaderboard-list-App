@@ -1,3 +1,5 @@
+import './lead.css';
+
 const api = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
 
 fetch(api, {
@@ -46,7 +48,7 @@ const display = (data) => {
 
 // GET Data to API
 
-const refreshBtn = document.querySelector('.refresh_btn');
+const refreshBtn = document.querySelector('.Refresh_btn');
 
 const getScoresList = async () => {
   const getScrores = await fetch(`${api}games/Zl4d7IVkemOTTVg2fUdz/scores/`);
